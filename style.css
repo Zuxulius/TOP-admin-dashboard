@@ -18,7 +18,7 @@ p {
     padding: 1rem;
     grid-row: 1/3;
     grid-column: 1/2;
-    background-color: cyan;
+    background-color: #083344;
 }
 
 .sidebar:hover {
@@ -51,7 +51,7 @@ p {
 }
 
 .icon-div:hover .iconify {
-    color: blue;
+    color: #22d3ee;
 }
 
 /* .icon-div:hover {
@@ -77,7 +77,7 @@ p {
 .header {
     font-weight: bold;
     padding: 20px 30px 20px 30px;
-    background-color: lightgoldenrodyellow;
+    background-color: #67e8f9;
     grid-row: 1/2;
     grid-column: 2/3;
     display: grid;
@@ -99,7 +99,7 @@ p {
 .search > input {
     border-radius: 10px;
     border: 0;
-    background-color: lightgrey;
+    background-color: #cffafe;
     opacity: 0.5;
     flex-grow: 1;
 }
@@ -118,7 +118,7 @@ p {
 
 .clown {
     font-size: 20px;
-    background-color: lightpink;
+    background-color: #a5f3fc;
     border-radius: 50%;
     padding: 2% 4% 2% 4%;
     margin-top: -5px;
@@ -149,7 +149,7 @@ p {
     padding: 20px 10px 30px 10px;
     grid-row: 2/3;
     grid-column: 2/3;
-    background-color: lightgrey;
+    background-color: #cffafe;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
@@ -176,8 +176,8 @@ p {
 .card {
     width: 100%;
     height: 100%;
-    background-color: lightgoldenrodyellow;
-    border-left: 10px solid orange;
+    background-color: #67e8f9;
+    border-left: 10px solid #0e7490;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
 }
@@ -243,7 +243,7 @@ p {
 }
 
 ul {
-    background-color: lightgoldenrodyellow;
+    background-color: #67e8f9;
     margin: 0;
     list-style: none;
     padding-right: 20px;
@@ -281,7 +281,7 @@ button {
     width: max(60px, 5vw);
     border-radius: 10px;
     border: 0;
-    background-color: cyan;
+    background-color: #083344;
     padding: 10px;
     color: white;
 }
@@ -289,11 +289,12 @@ button {
 button:hover {
     text-decoration: underline;
     cursor: pointer;
+    color: #a5f3fc;
 }
 
 .devil, .clown2, .alien, .brain {
     font-size: 25px;
-    background-color: lightpink;
+    background-color: #a5f3fc;
     border-radius: 50%;
     height: 2.5rem;
     width: 2.5rem;
