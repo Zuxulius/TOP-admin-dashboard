@@ -204,6 +204,11 @@ p {
     grid-row: 3/4;
 }
 
+.reaction {
+    color: black;
+    font-size: 20px;
+}
+
 .content-side {
     grid-columns: 2/3;
     grid-row: 1/3;
@@ -240,9 +245,35 @@ p {
 ul {
     background-color: lightgoldenrodyellow;
     margin: 0;
+    list-style: none;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-ul:hover {
+.trend {
+    display: grid;
+}
+
+.trend li {
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.trend p {
+    opacity: 35%;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+li h5 {
+    margin-bottom: 0px;
+}
+
+li:hover {
     cursor: pointer;
 }
 
@@ -258,4 +289,14 @@ button {
 button:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.devil, .clown2, .alien, .brain {
+    font-size: 25px;
+    background-color: lightpink;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    line-height: 39px;
 }
