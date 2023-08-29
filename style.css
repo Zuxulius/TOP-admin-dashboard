@@ -85,6 +85,10 @@ p {
     grid-template-columns: repeat(10, 1fr);
 }
 
+.header * *:hover {
+    cursor: pointer;
+}
+
 .search {
     display: flex;
     grid-column: 1/6;
@@ -114,9 +118,10 @@ p {
 
 .clown {
     font-size: 20px;
-    background-color: lightgoldenrodyellow;
-    border-radius: 20px;
-    padding: 0px 5px 0px 5px;
+    background-color: lightpink;
+    border-radius: 50%;
+    padding: 2% 4% 2% 4%;
+    margin-top: -5px;
 }
 
 .welcome {
@@ -177,11 +182,17 @@ p {
     grid-template-rows: 1fr 2fr 1fr;
 }
 
+.card:hover {
+    cursor: pointer;
+}
+
 .card-title {
+    margin-left: 10px;
     grid-row: 1/2;
 }
 
 .card-p {
+    margin-left: 10px;
     grid-row: 2/3;
 }
 
@@ -229,6 +240,10 @@ p {
 ul {
     background-color: lightgoldenrodyellow;
     margin: 0;
+}
+
+ul:hover {
+    cursor: pointer;
 }
 
 button {
